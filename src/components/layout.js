@@ -9,6 +9,8 @@ import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 
+import { Global, css } from '@emotion/core';
+
 import Header from "./header"
 import "./layout.css"
 
